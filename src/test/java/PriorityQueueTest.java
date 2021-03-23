@@ -11,7 +11,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 public class PriorityQueueTest {
     static Stream<Arguments> testcase() {
         return Stream.of(
-                arguments(new int[]{3, 10, -1, -22}, new int[]{-22, -1, 30, 10}),
+                arguments(new int[]{3, 10, -1, -22}, new int[]{-22, -1, 3, 10}),
                 arguments(new int[]{-6, 1, 100, 5}, new int[]{-6, 1, 5, 100}),
                 arguments(new int[]{-41, -1000, -9, -6, -10}, new int[]{-1000, -41, -10, -9, -6}),
                 arguments(new int[]{-3, 1, 11, 0, 9, 3}, new int[]{-3, 0, 1, 3, 9, 11}),
